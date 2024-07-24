@@ -1,0 +1,15 @@
+.parent{
+    grid-template-columns: 100px 100px 100px;
+    display: grid;
+}
+
+.child{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: brown;
+    grid-column-start: 3;
+}
